@@ -10,6 +10,8 @@ agent any
                   branches: [[name: 'main']],
                   userRemoteConfigs: [[url: 'https://github.com/mohanmoni700/build/tree/main/maven_app']]])
       }
+    }
+  }
 
 
 
