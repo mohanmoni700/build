@@ -7,7 +7,7 @@ agent any
         echo "clonning the app repo"
         '''
         checkout([$class: 'GitSCM',
-                  branches: [[name: 'master']],
+                  branches: [[name: 'main']],
                   userRemoteConfigs: [[url: 'https://github.com/mohanmoni700/build.git']]])
       }
 
